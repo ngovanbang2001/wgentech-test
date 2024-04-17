@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --second-text-color: #737373;
+  --text-color:  #252B42;
+  --primary-text-color: #96BB7C;
+  --light-background-color: #FFFFFF;
+  --accentued-drop-shadow: 0px 13px 19px 0px #00000012;
+
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* STYLE TEXT */
+.h6{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.h5{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.paragraph{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.small{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+/* Custom */
+
+.text-center{
+  text-align: center;
+}
+
+.mx-auto{
+  margin: 0 auto;
+}
+
+.primary-text-color{
+  color: var(--primary-text-color)
+}
+
+.second-text-color{
+  color: var(--second-text-color)
+}
+
+.text-color{
+  color: var(--text-color)
+}
+
+.light-background-color{
+  color: var(--light-background-color)
+}
+
+.accentued-drop-shadow{
+  box-shadow: var(--accentued-drop-shadow);
+}
+
+/* Grid */
+
+.grid{
+  display: grid;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 319px) {
+  .container{
+    max-width: 80%;
+  }
+  
+  .grid-cols {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .container{
+    max-width: 72.917%;
+  }
+  
+  .grid-cols {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .grid-cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .container{
+    max-width: 80%;
+  }
+
+  .grid-cols {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container{
+    max-width: 72.917%;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
