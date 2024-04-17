@@ -4,8 +4,4 @@ export const ROUTES_APP = {
     label: 'Home',
     value: '/'
   },
-  not_found: {
-    label: 'Not Found',
-    value: '/*'
-  },
 }
