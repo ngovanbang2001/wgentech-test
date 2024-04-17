@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wgentech-test/static/css/main.f6e221c3.css",
-    "main.js": "/wgentech-test/static/js/main.bc268678.js",
+    "main.js": "/wgentech-test/static/js/main.0b9923a2.js",
     "static/js/453.ed3810f9.chunk.js": "/wgentech-test/static/js/453.ed3810f9.chunk.js",
     "index.html": "/wgentech-test/index.html",
     "main.f6e221c3.css.map": "/wgentech-test/static/css/main.f6e221c3.css.map",
-    "main.bc268678.js.map": "/wgentech-test/static/js/main.bc268678.js.map",
+    "main.0b9923a2.js.map": "/wgentech-test/static/js/main.0b9923a2.js.map",
     "453.ed3810f9.chunk.js.map": "/wgentech-test/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6e221c3.css",
-    "static/js/main.bc268678.js"
+    "static/js/main.0b9923a2.js"
   ]
 }
